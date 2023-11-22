@@ -1,0 +1,69 @@
+html{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+display: flex;
+justify-content: center;
+font-family: 'Roboto Condensed', sans-serif;
+height: 100vh;
+align-items: center;
+}
+
+.post{
+    width: 311px;
+    height: 450px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.post-header{
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header-left{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.header-icon{
+    font-size: 35px;
+
+}
+
+.name{
+    display: flex;
+    line-height: 1;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.points{
+    float:inline-end;
+    padding:5px;
+}
+.post-icon{
+    display:flex,inline-block;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+.save-icon{
+float:inline-end;
+}
+
+h6{
+    margin-block: 0;
+    text-align: left;
+}
